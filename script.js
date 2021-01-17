@@ -15,7 +15,6 @@ cancelBtn.onclick = () => {
 };
 // drop down manu
 function toggleHide(){
-  let down =document.getElementById('fa');
   let up =document.getElementById('up');
   let para = document.getElementById('para'); 
   if(para.style.display != 'block'){

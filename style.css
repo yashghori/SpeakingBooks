@@ -403,14 +403,30 @@ button:hover {
   top: 0;
   height: 100%;
   width: 100%;
+  border-radius: 7px;
+  box-shadow: -2px -2px 7px white, 2px 2px 10px silver;
 }
 .box{
   width: 30%;
   box-shadow: -2px -2px 7px #ffffff, 2px 2px 10px #ceced1;
   margin: 12px;
   transition: all 0.5s ease;
+  border-radius: 10px;
 }
 .box:hover{
   transform: scale(1.02);
+}
+.box .embed-text{
+  text-align: center;
+}
+.box a{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  padding: 12px;
+}
+.box a:hover{
+  color: rgb(5, 5, 107);
 }
 

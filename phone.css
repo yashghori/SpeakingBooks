@@ -139,10 +139,7 @@ span {
 }
 /* team image */
 
-/* .wrapper{
-    width: 180px;
-    height: 200px;
-} */
+
 .wrapper .social-icons {
   margin: 8px 0 70px 0;
 }
@@ -173,7 +170,22 @@ span {
   box-shadow: rgb(255, 255, 255) -1px -1px 7px,
               rgb(206, 206, 209) 1px 1px 10px;
 }
-
+/* succesfull youngs */
+.box{
+  width: 60%;
+}
+.embed-text {
+  margin: 15px;
+}
+.responsive-youtube {
+  margin: 20px;
+}
+@media only screen and (max-width: 500px)
+{
+  .box{
+    width: 85%;
+  }
+}
 @media only screen and (max-width: 525px) {
   #section2 .container .container-item {
     max-width: 310px;
