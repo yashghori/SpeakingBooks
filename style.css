@@ -383,6 +383,11 @@ button:hover {
 /* Embed start of successful young's */
 #succesful{
   margin-top: 120px;
+  text-align: center;
+  display: block;
+
+}
+.succesful{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -429,4 +434,8 @@ button:hover {
 .box a:hover{
   color: rgb(5, 5, 107);
 }
+.page-heading{
+  font-size: 1.6rem;
+  padding-bottom: 12px;
 
+}
