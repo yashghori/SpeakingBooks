@@ -436,8 +436,9 @@ button:hover {
   font-size: 1.6rem;
   border-bottom: 2px solid rgb(238, 207, 8);
   display: inline;
-  text-align: center;
-  margin:25px ;
+  text-align: justify;
+  line-height: 42px;
+  padding-bottom: 3px;
 }
 /* for only whole book summaries */
 .for-margin{
