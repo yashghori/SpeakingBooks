@@ -264,8 +264,8 @@ li #version {
 .team-name {
   border-bottom: 2px solid rgb(238, 207, 8);
   margin: auto;
-  margin-top: 25px;
   width: 185px;
+  margin-top: 25px;
 }
 .wrapper,
 .wrapper .img-area,
@@ -370,17 +370,22 @@ li #version {
 }
 /* footer */
 #footer {
-  color: white;
+  color: rgb(196, 196, 196);
   background-color: #050436;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
+  line-height: 25px;
+  
 }
 #footer div {
-  margin-top: 25px;
+  margin-top: 15px;
 }
-#footer div a {
+#footer div a{
+  color: rgb(196, 196, 196);
+}
+#footer a {
   margin: 5px;
-  color: white;
+  color: rgb(139, 139, 139);
 }
 /* Embed start of Ever hyperlink page */
 #succesful {
