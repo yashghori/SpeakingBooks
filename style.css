@@ -205,6 +205,9 @@ li #version {
   /* transform: scale(1.02); */
   background-color: rgb(212, 212, 212);
 }
+#section2 .button {
+  width: 240px;
+}
 .button a {
   color: rgb(17, 128, 156);
   font-weight: bold;

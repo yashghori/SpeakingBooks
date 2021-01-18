@@ -125,6 +125,10 @@ span {
   width: 200px;
 }
 
+#section2 .button {
+  width: 240px;
+}
+
 /* start section 2 */
 #section2 .container {
   display: flex;
