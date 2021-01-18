@@ -434,7 +434,10 @@ button:hover {
 }
 .page-heading {
   font-size: 1.6rem;
-  padding-bottom: 12px;
+  border-bottom: 2px solid rgb(238, 207, 8);
+  display: inline;
+  text-align: center;
+  margin:25px ;
 }
 /* for only whole book summaries */
 .for-margin{
