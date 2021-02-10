@@ -24,3 +24,10 @@ function toggleHide(){
     para.style.display = 'none';
   }
 }
+
+// preloader
+
+let preloader = document.getElementById('loading')
+function myFunction(){
+  preloader.style.display = 'none'
+}
