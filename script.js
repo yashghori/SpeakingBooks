@@ -14,13 +14,13 @@ cancelBtn.onclick = () => {
   body.classList.remove("disabledScroll");
 };
 // drop down manu
-function toggleHide(){
-  let up =document.getElementById('up');
-  let para = document.getElementById('para'); 
-  if(para.style.display != 'block'){
+function toggleHide() {
+  let up = document.getElementById('up');
+  let para = document.getElementById('para');
+  if (para.style.display != 'block') {
     para.style.display = 'block';
   }
-  else{
+  else {
     para.style.display = 'none';
   }
 }
@@ -28,6 +28,6 @@ function toggleHide(){
 // preloader
 
 let preloader = document.getElementById('loading')
-function myFunction(){
+function myFunction() {
   preloader.style.display = 'none'
 }
