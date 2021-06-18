@@ -471,3 +471,6 @@ li #version {
   text-align: center;
   display: block;
 }
+::-webkit-scrollbar {
+  display: none;
+}
