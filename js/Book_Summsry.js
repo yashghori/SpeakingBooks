@@ -44,4 +44,29 @@ const books_summ = [
         youTube_src: "https://www.youtube.com/embed/ciP-YeDBGCo",
         download: "./Audio/Book_Summary/The_5_AM_Club_Own_Your_Morning,_Elevate_Your_Life_Robin_Sharma_Book.mp3"
     },
+    {
+        Title: "The Slave Ship: A Human History | Marcus Rediker",
+        youTube_src: "https://www.youtube.com/embed/v_FSY-TGIlA",
+        download: "#"
+    },
+    {
+        Title: "Macbeth | Play by William Shakespeare",
+        youTube_src: "https://www.youtube.com/embed/K8_CnFNAvCc",
+        download: "#"
+    },
+    {
+        Title: "The Rudest Book Ever | Shwetabh Gangwar",
+        youTube_src: "https://www.youtube.com/embed/AX3dThfWpH4",
+        download: "#"
+    },
+    {
+        Title: "The Plastic Ocean | By Cassandra Phillips and Chris Moore",
+        youTube_src: "https://www.youtube.com/embed/1F_dAuGtjsA",
+        download: "#"
+    },
+    {
+        Title: "The Ghost by Danielle Steel",
+        youTube_src: "https://www.youtube.com/embed/bvAqqvM1bAo",
+        download: "#"
+    },
 ]
