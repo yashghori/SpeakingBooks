@@ -393,6 +393,10 @@ li #version {
   text-align: center;
   padding: 20px;
   line-height: 25px;
+  /* position:relative; */
+  bottom: 0px;
+  left: 0;
+  width: 100vw;
 }
 #footer div {
   margin-top: 15px;
@@ -473,4 +477,22 @@ li #version {
 }
 ::-webkit-scrollbar {
   display: none;
+}
+
+input[type="text"] {
+  width: 25%;
+  text-align: center;
+  padding: 6px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #acc7dc;
+  outline: none;
+  color: var(--pink);
+  background: transparent;
+  
+}
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
