@@ -478,9 +478,9 @@ li #version {
 ::-webkit-scrollbar {
   display: none;
 }
-
+/*  searchbar */
 input[type="text"] {
-  width: 25%;
+  width: 30%;
   text-align: center;
   padding: 6px 20px;
   box-sizing: border-box;
@@ -491,6 +491,7 @@ input[type="text"] {
   background: transparent;
   
 }
+
 .search{
   display: flex;
   align-items: center;
