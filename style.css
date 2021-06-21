@@ -497,3 +497,9 @@ input[type="text"] {
   align-items: center;
   justify-content: space-around;
 }
+.searchSpe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
