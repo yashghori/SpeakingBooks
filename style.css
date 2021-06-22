@@ -22,6 +22,7 @@
   padding: 0px;
   font-family: "Montserrat", sans-serif, Georgia, "Times New Roman", Times,
     serif;
+  user-select: none;
 }
 html {
   scroll-behavior: smooth;
@@ -489,15 +490,14 @@ input[type="text"] {
   outline: none;
   color: var(--pink);
   background: transparent;
-  
 }
 
-.search{
+.search {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.searchSpe{
+.searchSpe {
   display: flex;
   flex-direction: column;
   align-items: center;

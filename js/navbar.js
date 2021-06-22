@@ -2,7 +2,7 @@ const navbar = document.querySelector('#navbar');
 navbar.innerHTML = `
 <div class="for-phone">
 <div class="logo">
-    <img src="png/icon.jpg" alt="Speaking Books" />
+<a href="index.html"><img draggable='false' src="png/icon.jpg" alt="Speaking Books" /></a>
 </div>
 <div class="logo-font">
     <h1>Speaking <span>Books</span></h1>
