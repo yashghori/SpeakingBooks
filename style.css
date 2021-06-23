@@ -23,6 +23,7 @@
   font-family: "Montserrat", sans-serif, Georgia, "Times New Roman", Times,
     serif;
   user-select: none;
+  scrollbar-width: none;
 }
 html {
   scroll-behavior: smooth;
