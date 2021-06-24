@@ -332,11 +332,23 @@ li #version {
   border-radius: 50%;
 }
 .inner-area img {
+  position:relative
   height: 100%;
   width: 100%;
   border-radius: 50%;
   object-fit: cover;
   /* opacity: 0.8; */
+}
+
+/* overlay protection */
+.inner-area:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
 }
 .wrapper .name {
   font-size: 23px;
