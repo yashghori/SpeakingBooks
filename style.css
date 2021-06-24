@@ -341,7 +341,11 @@ li #version {
 }
 
 /* overlay protection */
-.inner-area:after {
+.inner-area, .container-item, .logo-icon {
+  position:relative;
+}
+
+.inner-area:after, .container-item:after, .logo-icon:after {
   content: " ";
   position: absolute;
   top: 0;
