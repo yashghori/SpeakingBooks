@@ -339,10 +339,7 @@ li #version {
   /* opacity: 0.8; */
 }
 
-/* overlay protection */
-.inner-area, .container-item, .logo-icon {
-  position:relative;
-}
+
 
 .inner-area:after, .container-item:after, .logo-icon:after {
   content: " ";
