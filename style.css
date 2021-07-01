@@ -338,21 +338,6 @@ li #version {
   object-fit: cover;
   /* opacity: 0.8; */
 }
-
-/* overlay protection */
-.inner-area, .container-item, .logo-icon {
-  position:relative;
-}
-
-.inner-area:after, .container-item:after, .logo-icon:after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 99;
-}
 .wrapper .name {
   font-size: 23px;
   font-weight: 500;
