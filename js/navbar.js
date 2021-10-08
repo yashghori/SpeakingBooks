@@ -35,3 +35,21 @@ navbar.innerHTML = `
 <i class="fas fa-bars"></i>
 </div>
 `
+
+// drop down icon change
+const dropButton = document.querySelector('#remove-icon');
+
+
+dropButton.addEventListener('click', function() {
+			
+	if(dropButton.classList.contains("fa-angle-down")){
+				
+		dropButton.classList.remove("fa-angle-down");
+		dropButton.classList.add("fa-angle-up");
+    
+	}else{		
+		dropButton.classList.remove("fa-angle-up"); 
+        dropButton.classList.add("fa-angle-down");
+	}
+
+})
